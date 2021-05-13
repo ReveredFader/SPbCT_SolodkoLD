@@ -1,0 +1,26 @@
+Задание №1
+   res/values/colors.xml:
+       <?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <color name="view_bkg_color">#FF0</color>
+        <color name="screen_bkg_color">#F88</color>
+        <color name="text_color">#8004</color>
+    </resources>
+    
+  res/values/strings.xml:
+      <?xml version="1.0" encoding="utf-8"?>
+      <resources>
+      <string name="hello">Hello, Android World!</string>
+      <string name="app_name">HelloAndroidWorld</string>
+      </resources>
+
+   res/layout/main.xml:
+      <?xml version="1.0" encoding="utf-8"?>
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent" android:layout_height="fill_parent"
+      android:orientation="vertical" android:background="@color/screen_bkg_color">
+      <TextView
+      android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hello" android:background="@color/view_bkg_color" android:textColor="@color/text_color"/>
+      </LinearLayout>
+
+
